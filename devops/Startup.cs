@@ -29,6 +29,7 @@ namespace devops
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
+            // New Comments added by SS
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
