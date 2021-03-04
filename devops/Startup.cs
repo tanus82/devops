@@ -8,7 +8,7 @@ using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-
+// Comment updated on 5-Mar: Update No. 2
 namespace devops
 {
     public class Startup
@@ -29,7 +29,6 @@ namespace devops
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
-            // Comment updated on 5-Mar: Update No. 1
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
